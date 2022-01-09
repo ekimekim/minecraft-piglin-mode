@@ -3,7 +3,7 @@ Datapack that creates a "piglin-mode" game, with gameplay changes:
 - Core / challenge changes
   - [ ] Spawn in the Nether
     - [ ] Bonus: keep Nether spawn chunks loaded similarly to vanilla spawn chunks
-  - [ ] Being in the overworld causes you to take damage
+  - [x] Being in the overworld causes you to take damage
   - [ ] Dying in the overworld spawns a zombie piglin
   - Way to improve survival in overworld?
   - Do we put end fortresses in the nether or make that an overworld dive?
