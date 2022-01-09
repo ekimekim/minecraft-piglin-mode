@@ -3,6 +3,7 @@
 # We do this with a tail-recursive loop that moves the marker one block upwards until air is found.
 
 # Delete any already existing spawn markers, in case this function is re-run later.
+say Setting spawn point
 kill @e[tag=spawn]
 
 # Create a marker tagged spawn at Y=60
