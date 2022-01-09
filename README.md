@@ -7,7 +7,6 @@ Datapack that creates a "piglin-mode" game, with gameplay changes:
       - Spawn location is locked and cannot be changed. Respawn anchors and beds can be used but the spawn point is immediately set back.
       - We try to find a reasonable spawn location in the nether but this is very primitive.
 	    Currently it is just the first air block above Y=60 at (0,0). You may end up in mid-air, or on the wrong side of the bedrock ceiling.
-      - You can reset the spawn point with `/function piglin_mode:create_spawn` or set it manually with `/teleport @e[tag=spawn] X Y Z`
   - [x] Being in the overworld causes you to take damage
     - This takes the form of nausea + wither status effects. **I highly recommend turning down the nausea effects in accessibility settings**.
     - Because the damage is so slow, it can be effectively combatted by lots of food or other healing
