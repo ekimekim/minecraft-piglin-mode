@@ -1,5 +1,6 @@
 {
 	"values": [
-		"piglin_mode:overworld_damage"
+		"piglin_mode:overworld_damage",
+		"piglin_mode:load"
 	]
 }
