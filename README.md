@@ -7,6 +7,11 @@ Datapack that creates a "piglin-mode" game, with gameplay changes:
       - Spawn location is locked and cannot be changed. Respawn anchors and beds can be used but the spawn point is immediately set back.
       - We try to find a reasonable spawn location in the nether but this is very primitive.
 	    Currently it is just the first air block above Y=60 at (0,0). You may end up in mid-air, or on the wrong side of the bedrock ceiling.
+	- Improvement: Spawn in a dedicated spawn area that always teleports you to actual spawn
+	  - this means you can set your spawn correctly with beds/anchors
+	- Improvement: Spawn in a Bastion
+	  - Generating one on demand is hard
+	  - Finding one with locate is doable but requires an iterative process
   - [x] Being in the overworld causes you to take damage
     - This takes the form of nausea + wither status effects. **I highly recommend turning down the nausea effects in accessibility settings**.
     - Because the damage is so slow, it can be effectively combatted by lots of food or other healing
