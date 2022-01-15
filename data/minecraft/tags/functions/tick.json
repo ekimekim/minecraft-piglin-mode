@@ -1,5 +1,6 @@
 {
 	"values": [
-		"piglin_mode:check_player_death"
+		"piglin_mode:check_player_death",
+		"piglin_mode:check_player_at_spawn"
 	]
 }
