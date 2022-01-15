@@ -13,9 +13,7 @@ Datapack that creates a "piglin-mode" game, with gameplay changes:
     - Because the damage is so slow, it can be effectively combatted by lots of food or other healing
   - [x] Dying in the overworld spawns a zombie piglin
 - Quality of life improvements
-  - [ ] Piglin aggro is reduced by 1 step (light aggro is removed, medium becomes light, etc)
-    - ie. you don't need gold armor, opening chests is ok, breaking chests or gold is still not.
-  - [ ] Slime is added to Magma Cube drops
+  - [x] Magma cubes drop slimeballs in addition to magma cream
   - [ ] Redstone ore generates in blackstone deposits
   - [ ] Blackstone can be used in place of cobble in more recipes
 - Just for fun
