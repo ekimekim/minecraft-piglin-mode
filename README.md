@@ -14,7 +14,10 @@ Datapack that creates a "piglin-mode" game, with gameplay changes:
   - [x] Dying in the overworld spawns a zombie piglin
 - Quality of life improvements
   - [x] Magma cubes drop slimeballs in addition to magma cream
-  - [ ] Redstone can be given by piglins when bartering
+  - [ ] Redstone added to various loot tables
+    - [x] Can be given by piglins when bartering
+    - [ ] Can be found in nether fortresses
+    - [ ] Can be found in bastions
   - [ ] Blackstone can be used in place of cobble (and polished blackstone for stone) in more recipes
     - [ ] Dispenser
     - [ ] Dropper
@@ -24,5 +27,6 @@ Datapack that creates a "piglin-mode" game, with gameplay changes:
     - [ ] Comparator (polished blackstone)
     - [ ] Repeater (polished blackstone)
     - [ ] Stonecutter (polished blackstone)
+	- [ ] Detector Rail (blackstone pressure plate)
 - Just for fun
   - [ ] Modified Advancements representing the new progression path
