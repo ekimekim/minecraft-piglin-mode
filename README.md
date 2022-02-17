@@ -18,15 +18,15 @@ Datapack that creates a "piglin-mode" game, with gameplay changes:
     - [x] Can be given by piglins when bartering
     - [x] Can be found in nether fortresses
     - [x] Can be found in bastions
-  - [ ] Blackstone can be used in place of cobble (and polished blackstone for stone) in more recipes
-    - [ ] Dispenser
-    - [ ] Dropper
-    - [ ] Lever
-    - [ ] Observer
-    - [ ] Piston
-    - [ ] Comparator (polished blackstone)
-    - [ ] Repeater (polished blackstone)
-    - [ ] Stonecutter (polished blackstone)
-	- [ ] Detector Rail (blackstone pressure plate)
+  - [x] Blackstone can be used in place of cobble (and polished blackstone for stone) in more recipes
+    - [x] Dispenser
+    - [x] Dropper
+    - [x] Lever
+    - [x] Observer
+    - [x] Piston
+    - [x] Comparator (polished blackstone)
+    - [x] Repeater (polished blackstone)
+    - [x] Stonecutter (polished blackstone)
+	- [x] Detector Rail (blackstone pressure plate)
 - Just for fun
   - [ ] Modified Advancements representing the new progression path
