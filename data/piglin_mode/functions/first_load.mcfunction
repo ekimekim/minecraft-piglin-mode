@@ -10,5 +10,3 @@ execute in the_nether run forceload add 0 0
 
 # Set up the nether spawn point, once the chunk is loaded
 function piglin_mode:wait_set_spawn
-
-schedule function debug 1s
