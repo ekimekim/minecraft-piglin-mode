@@ -20,6 +20,8 @@ execute in overworld as @a[distance=0..,scores={deaths=1..},limit=1] run setbloc
 execute in overworld as @a[distance=0..,scores={deaths=1..},limit=1] at @s run data modify entity @e[name="Zombified Player",distance=0..,sort=nearest,limit=1] CustomName set from block 0 319 0 Text1
 # Delete the sign
 execute in overworld run setblock 0 319 0 air
+# Award the player's achievement
+execute in overworld as @a[distance=0..,scores={deaths=1..},limit=1] run advancement grant @s only piglin_mode:zombified
 # Clear the player's death flag
 scoreboard players set @a[distance=0..,scores={deaths=1..},limit=1] deaths 0
 

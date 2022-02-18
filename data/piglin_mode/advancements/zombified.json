@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:rotten_flesh"
+		},
+		"frame": "task",
+		"title": "I Feel Sick...",
+		"description": "Be zombified from overworld exposure",
+		"hidden": true
+	},
+	"parent": "piglin_mode:explorer",
+	"criteria": {
+		"never": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
