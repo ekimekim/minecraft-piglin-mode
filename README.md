@@ -29,4 +29,4 @@ Datapack that creates a "piglin-mode" game, with gameplay changes:
     - [x] Stonecutter (polished blackstone)
 	- [x] Detector Rail (blackstone pressure plate)
 - Just for fun
-  - [ ] Modified Advancements representing the new progression path
+  - [x] New Advancements

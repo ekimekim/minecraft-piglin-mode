@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:grass_block"
+		},
+		"frame": "task",
+		"title": "Overworld Explorer",
+		"description": "Where no pig has gone before"
+	},
+	"parent": "minecraft:nether/root",
+	"criteria": {
+		"travel": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "minecraft:the_nether",
+				"to": "minecraft:overworld"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"travel"
+		]
+	]
+}
