@@ -12,6 +12,8 @@ Datapack that creates a "piglin-mode" game, with gameplay changes:
     - This takes the form of nausea + wither status effects. **I highly recommend turning down the nausea effects in accessibility settings**.
     - Because the damage is so slow, it can be effectively combatted by lots of food or other healing
   - [x] Dying in the overworld spawns a zombie piglin
+  - [x] Sleeping in the overworld will blow up the bed
+    - This isn't perfect - you can still set spawn safely as long as you can't sleep.
 - Quality of life improvements
   - [x] Magma cubes drop slimeballs in addition to magma cream
   - [x] Redstone added to various loot tables

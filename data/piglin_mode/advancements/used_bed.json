@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:nether/root",
+	"criteria": {
+		"used_bed": {
+			"trigger": "minecraft:slept_in_bed"
+		}
+	},
+	"rewards": {
+		"function": "piglin_mode:used_bed"
+	}
+}
