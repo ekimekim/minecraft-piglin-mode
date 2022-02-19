@@ -15,6 +15,7 @@ Datapack that creates a "piglin-mode" game, with gameplay changes:
   - [x] Sleeping in the overworld will blow up the bed
     - This isn't perfect - you can still set spawn safely as long as you can't sleep.
 - Quality of life improvements
+  - [x] Spawn with gold boots at 1 durability, ensuring you aren't immediately murdered by your fellow piglins
   - [x] Magma cubes drop slimeballs in addition to magma cream
   - [x] Redstone added to various loot tables
     - [x] Can be given by piglins when bartering
