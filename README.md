@@ -32,3 +32,4 @@ Datapack that creates a "piglin-mode" game, with gameplay changes:
 	- [x] Detector Rail (blackstone pressure plate)
 - Just for fun
   - [x] New Advancements
+  - [x] Player drops a porkchop on death (if they didn't become a zombie)

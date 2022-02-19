@@ -11,9 +11,12 @@
 execute in overworld as @a[distance=0..,scores={deaths=1..},limit=1] at @s run function piglin_mode:died_in_overworld
 scoreboard players set @a[distance=0..,scores={deaths=1..},limit=1] deaths 0
 
-# If any players remain, loop
-execute if entity @a[distance=0..,scores={deaths=1..}] run function piglin_mode:check_player_death
+# If any overworld players remain, loop
+execute in overworld if entity @a[distance=0..,scores={deaths=1..}] run function piglin_mode:check_player_death
 
-# Clear any remaining deaths, they were non-overworld.
-# This line will be executed once per level we end up recursing, but it's idempotent.
+# Everything following will be executed once per level we end up recursing, but it's idempotent.
+
+# For each player that died somewhere non-overworld, drop a porkchop
+execute as @a[scores={deaths=1..}] at @s run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:porkchop",Count:1}}
+# Then clear all deaths
 scoreboard players set @a deaths 0
